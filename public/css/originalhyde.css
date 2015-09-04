@@ -55,9 +55,9 @@ html {
 
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem; /* no effect*/
-  color: rgba(255,255,255,.5); /*color of sidebar subtext (not including links), last number is fade*/
-  background-color: #202020; /*color of background */
+  padding: 2rem 1rem;
+  color: rgba(255,255,255,.5);
+  background-color: #202020;
 }
 @media (min-width: 48rem) {
   .sidebar {
@@ -65,7 +65,7 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 17rem; /* Determines the size of the sidebar */
+    width: 18rem;
     text-align: left;
   }
 }
@@ -77,16 +77,16 @@ html {
 
 /* About section */
 .sidebar-about h1 {
-  color: #fff;  /*title color "Kunal Goel"*/
-  margin-top: 0 3;
-  font-family: "serif", serif; /*title font*/
-  font-size: 2.00rem; /*title font size*/
+  color: #fff;
+  margin-top: 0;
+  font-family: "Abril Fatface", serif;
+  font-size: 3.25rem;
 }
 
 /* Sidebar nav */
 .sidebar-nav {
-  padding-left: 0;  /*home button on side bar */
-  list-style: inside; /*bullet points of side bar links, was "none" before */
+  padding-left: 0;
+  list-style: none;
 }
 .sidebar-nav-item {
   display: block;
@@ -108,7 +108,7 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48rem) {
   .sidebar-sticky {
     position: absolute;
-    right:  1rem;        /* changes the actual position of side bar text */
+    right:  1rem;
     bottom: 1rem;
     left:   1rem;
   }
@@ -122,7 +122,7 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;  /*changes up and down of content */
+  padding-top:    4rem;
   padding-bottom: 4rem;
 }
 
@@ -136,7 +136,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 64rem) {
   .content {
-    margin-left: 20rem;  /* changes left and right of content */
+    margin-left: 22rem;
     margin-right: 4rem;
   }
 }
