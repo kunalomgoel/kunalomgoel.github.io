@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: Photography
 ---
 
 <p class="message">
