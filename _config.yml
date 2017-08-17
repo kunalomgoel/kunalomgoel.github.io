@@ -9,8 +9,8 @@ permalink:        pretty
 title:            Kunal Goel #was "Hyde" before
 tagline:          ''
 description:      A personal website. #'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://kunalgoel.org/
-baseurl:          /hyde/
+url:              http://kunalomgoel.github.io/
+baseurl:          /
 
 author:
   name:           'Kunal Goel'
