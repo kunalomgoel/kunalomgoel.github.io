@@ -2,25 +2,6 @@
 layout: default
 ---
 
-   <!-- Stuff for jsarr tag  -->
-
-    {% for js in page.jsarr %}
-      <script type="text/javascript">
-         {% include {{ js }} %}
-      </script> 
-      <script>
-  var typed = new Typed('.element', {
-    stringsElement: '#typed-strings'
-  });
-</script>
-  <script type="text/javascript" src="{{ site.baseurl }}public/js/node_modules/instafeed.js/instafeed.min.js"></script>
-
-    {% endfor %}
-
-    <!-- End Stuff for jsarr tag  -->
-
-
-
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }} 
@@ -46,3 +27,11 @@ layout: default
 </div>
 
 {% include disqus.html %} <!--added for disqus comments-->
+
+<!--Added JS Script-->
+<script>
+  var typed = new Typed('.element', {
+    stringsElement: '#typed-strings'
+  });
+</script>
+<!--Added JS Script-->

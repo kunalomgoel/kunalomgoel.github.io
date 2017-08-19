@@ -17,12 +17,6 @@ There are currently two themes built on Poole:
 
 Learn more and contribute on [GitHub](https://github.com/poole). 
 
-<script>
-  var typed = new Typed('.element', {
-    stringsElement: '#typed-strings'
-  });
-</script>
-
 <div id="typed-strings">
     <p>Typed.js is a <strong>JavaScript</strong> library.</p>
     <p>It <em>types</em> out sentences.</p>
