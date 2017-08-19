@@ -21,6 +21,12 @@ jsarr:
 
 <div id="instafeed"></div>
 
+<div id="typed-strings">
+    <p>Typed.js is a JavaScriptlibrary.</p>
+    <p>It <em>types</em> out sentences.</p>
+</div>
+<span id="typed"></span>
+
 In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
 There are currently two themes built on Poole:
