@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Photography
-permalink: /photography/
 ---
 
 <p class="message">
