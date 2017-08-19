@@ -1,8 +1,11 @@
 ---
 layout: post
 title: First post - The election of a lifetime
+comments: true
 ---
-TESTESTSTESTSETSETETSTEST
+
+KG
+
 When politics blows up to the scale of popular culture - things get real dramatic, real quick.
 
 ### The Debates
