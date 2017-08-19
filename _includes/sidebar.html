@@ -19,7 +19,13 @@
         `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
 
-      {% assign pages_list = site.pages %}
+      <!--{% assign pages_list = site.pages %} removed to create ordered pages-->
+      {% assign sorted_pages = site.pages | sort:"order" %}
+      {% for node in sorted_pages %}
+       <li><a href="{{node.url}}">{{node.title}}</a></li>
+      {% endfor %}
+      <!--added above four lines to sort pages-->
+
       {% for node in pages_list %}
         {% if node.title != null %}
           {% if node.layout == "page" %}

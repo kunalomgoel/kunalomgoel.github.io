@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Photography
-order: 3
+title: About
+comments: true
+order: 1
 ---
 
 <p class="message">
-  Hey there! This is a simple test to see if I can create a page without too much effort. Thanks!
-
+  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
 </p>
 
 In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
@@ -17,6 +17,17 @@ There are currently two themes built on Poole:
 * [Lanyon](http://lanyon.getpoole.com)
 
 Learn more and contribute on [GitHub](https://github.com/poole).
+
+// Can also be included with a regular script tag
+import Typed from 'typed.js';
+
+var options = {	
+  strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
+  typeSpeed: 40
+}
+
+var typed = new Typed(".element", options);
+
 
 ## Setup
 
