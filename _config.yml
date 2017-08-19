@@ -17,6 +17,8 @@ author:
   url:            https://kunalgoel.org/
 
 paginate:         5
+paginate_path: "/Blog/page:num/"
+
 
 # Custom vars
 version:          10.10.3 #2.1.0
