@@ -14,7 +14,7 @@ permalink: /blog/
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}
-          {% if page.comments %} • <a href="https://kunalgoel.org{{ page.url }}#disqus_thread">0 Comments</a>{% endif %} <!--added for disqus comments count at top of post, under title-->
+          <a href="https://kunalgoel.org{ post.url }}#disqus_thread">0 Comments</a>
     </span>
 
     {{ post.content }}
@@ -37,4 +37,6 @@ permalink: /blog/
   {% else %}
     <span class="pagination-item newer">Newer</span>
   {% endif %}
-</div>
+</div
+
+
