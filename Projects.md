@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-order: 4
+permalink: /projects/
 ---
 
 <p class="message">

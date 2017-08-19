@@ -2,6 +2,7 @@
 layout: page
 title: About
 comments: true
+permalink: /
 ---
 
 <p class="message">

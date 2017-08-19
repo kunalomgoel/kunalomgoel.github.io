@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Photography
-order: 3
+permalink: /photography/
 ---
 
 <p class="message">
