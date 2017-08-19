@@ -16,6 +16,17 @@ There are currently two themes built on Poole:
 
 Learn more and contribute on [GitHub](https://github.com/poole).
 
+// Can also be included with a regular script tag
+import Typed from 'typed.js';
+
+var options = {
+  strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
+  typeSpeed: 40
+}
+
+var typed = new Typed(".element", options);
+
+
 ## Setup
 
 Some fun facts about the setup of this project include:
