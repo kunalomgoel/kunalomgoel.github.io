@@ -1,0 +1,25 @@
+{
+  "name": "kunalomgoel.github.io",
+  "version": "1.0.0",
+  "description": "Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.",
+  "main": "index.js",
+  "dependencies": {
+    "instafeed.js": "^1.4.1",
+    "typed.js": "^2.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunalomgoel/kunalomgoel.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kunalomgoel/kunalomgoel.github.io/issues"
+  },
+  "homepage": "https://github.com/kunalomgoel/kunalomgoel.github.io#readme"
+}
