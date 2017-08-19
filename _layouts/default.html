@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-us">
-{% include disqus.html %} <!--added for disqus comments-->
-{% include typed.html %} <!-- added for typed JS -->
-{% include instafeed.html %} <!-- added for instafeed JS -->
 
   {% include head.html %}
 
@@ -11,8 +8,8 @@
     {% include sidebar.html %}
 
     <div class="content container">
-      <script id="dsq-count-scr" src="//kunal_goel_org.disqus.com/count.js" async></script> <!--added for disqus comment counter-->
       {{ content }}
     </div>
+
   </body>
 </html>

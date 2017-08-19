@@ -10,15 +10,13 @@ title:            Kunal Goel #was "Hyde" before
 tagline:          ''
 description:      A personal website. #'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:              http://kunalgoel.org/
-baseurl:          http://kunalgoel.org/
+baseurl:          /
 
 author:
   name:           'Kunal Goel'
   url:            https://kunalgoel.org/
 
 paginate:         5
-paginate_path: "/Blog/page:num/"
-
 
 # Custom vars
 version:          10.10.3 #2.1.0
