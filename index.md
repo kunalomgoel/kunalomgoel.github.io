@@ -29,6 +29,19 @@ Learn more and contribute on [GitHub](https://github.com/poole).
 </div>
 <span id="typed"></span>
 
+test
+
+<script>
+import Typed from 'typed.js';
+
+var options = {
+  strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
+  typeSpeed: 40
+}
+
+var typed = new Typed(".element", options);
+</script>
+
 ## Setup
 
 Some fun facts about the setup of this project include:
